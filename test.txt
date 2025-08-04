@@ -48,3 +48,6 @@ section class="connect" id="connect">
       </a>
     </div>
   </section>
+
+  live link ----------------
+  https://harshx001.github.io/portfolio/
