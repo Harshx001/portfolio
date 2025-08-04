@@ -1,0 +1,50 @@
+Hello, I'm Harsh Suryawanshi, a passionate and dedicated Full Stack Developer.
+I completed my Bachelor of Technology in Computer Science and Engineering, 
+with a specialization in Artificial Intelligence and Data Science, from Samrat
+ Ashok Technological Institute in 2025.
+
+I recently completed an internship at Micro SaaS Capital as a Software Development Intern
+, where I contributed to various projects involving API integration, backend logic, 
+and collaborated closely with the product team to enhance user functionality.
+
+With over 1 year of hands-on experience in building and maintaining scalable 
+applications, I’ve worked extensively on API development, database design, a
+nd end-to-end full-stack solutions.
+
+I'm skilled in Java, Python, HTML, CSS, and JavaScript, and have practical 
+experience with tools and frameworks like React, Node.js, and MySQL. I take
+ pride in writing clean, modular code and building systems that are both efficient and user-friendly.
+
+I'm always eager to learn emerging technologies, contribute to impactful 
+projects, and grow within a collaborative and innovative team environment.
+
+fab fa-instagram fab fa-hackerrank fab fa-github fab fa-facebook-f fab fa-linkedin-in
+
+pove ujhc bdqv mrrr
+
+*****************************************************************************************************************
+section class="connect" id="connect">
+    <h2><span>Connect</span> with Me</h2>
+    <div class="social-icons">
+
+      <a href="https://github.com/Harshx001" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <span class="divider"></span>
+      <a href="https://www.linkedin.com/in/harshsuryawanshi12/" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <span class="divider"></span>
+      <a href="https://www.hackerrank.com/profile/harshsurya7831" target="_blank" title="HackerRank">
+        <i class="fab fa-hackerrank"></i>
+      </a>
+      <span class="divider"></span>
+      <a href="https://www.instagram.com/_harshx01/" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <span class="divider"></span>
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </div>
+  </section>

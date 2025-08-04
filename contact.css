@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #cbd5e1;
+  min-height: 500px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap; /* Optional for responsiveness */
+}
+
+
+/* Fully transparent form container - no background or box */
+.form-wrapper {
+  flex: 1;
+  max-width: 600px;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  backdrop-filter: none;
+}
+
+/* Form layout */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+/* Inputs with subtle transparent backgrounds */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1.2rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  border: none;
+  background-color: rgba(51, 65, 85, 0.4); /* subtle transparent */
+  color: #f8fafc;
+  resize: vertical;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rgba(71, 85, 105, 0.6);
+  outline: none;
+}
+
+/* Button style unchanged */
+.cta-btn {
+  background: linear-gradient(90deg, #6366f1, #ec4899);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(236, 72, 153, 0.5);
+}
+

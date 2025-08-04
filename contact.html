@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me | Harsh</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="contact-section">
+        <div class="contact-container">
+
+            <!-- Left: Form -->
+            <div class="form-wrapper">
+                <h2>Contact <span>Me</span></h2>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Message Sent!');">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="cta-btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Right: Image -->
+            <div class="image-wrapper">
+                <img src="Images/contact.png" alt="Contact Illustration">
+
+            </div>
+
+
+
+        </div>
+    </section>
+</body>
+
+</html>
