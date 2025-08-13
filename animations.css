@@ -1,0 +1,65 @@
+
+.profile-pic {
+  transform: translateX(-150%);
+  border-radius: 50;
+  opacity: 0;
+  animation: slideInCircle 1.5s ease forwards;
+  animation: slideInLeft 1s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInCircle {
+  0% {
+    transform: translateX(-150%);
+    border-radius: 50;
+    opacity: 0;
+  }
+  70% {
+    transform: translateX(0);
+    border-radius: 50;
+    opacity: 1;
+  }
+  100% {
+    border-radius: 50%;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  animation: typing 3s steps(30, end), blink .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.fade-in:nth-child(1) { animation-delay: 1s; }
+.fade-in:nth-child(2) { animation-delay: 1.5s; }
+.fade-in:nth-child(3) { animation-delay: 2s; }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
